@@ -1,9 +1,13 @@
-Goals:
-In image recognition or speech recognition applications, the computational complexity of the deep neural network model is very large, and there is a certain data correlation between layers of the model. Therefore, how to divide the task amount and computing resources is an important issue for the design of CPU or GPU cluster acceleration framework. When the scale of the trained model is relatively large, the training of the model can be accelerated by the data parallelism method.
+Summary of group reports
 
-Pros:
-The error rates of the serial BP algorithm and Map-Reduce-BP algorithm are at the same level and are within acceptable error range. At the same time, the cloud computing clusters costs less time and fewer times of iterations, which means that the Map-Reduce-BP algorithm is more efficient. 
+Jialun Wang report
+This report focuses on an unsupervised learning algorithm, K-Means algorithm. K-Means is a mainstream algorithm in unsupervised learning. K-Means is convenient and more efficient to process spherical datasets without preset labels. But it requires a appropriate K to get the good results.
 
-Cons:
-(1) The versatility of MapReduce is not very good, and it is not adaptable in many data processing scenarios. 
-(2) The operation of Reduce part needs to wait until most parts of Map complete their operations. In some cases, when the distribution of computing is uneven, Map operations will cost a long time and Reduce operation will wait for the complete of Map operation. 
+Zeyu Song report
+This report focuses on object detection and R-CNN methods. This report analyzes the pros of Fast/Faster R-CNN and Mask R-CNN. These methods are keeping improving, together with fast training and inference time.
+
+Cagri Yoruk report
+This report focuses on object detection and many models, like YOLO, R-CNN, Faster R-CNN, and Mask R-CNN. Compared them by their architecture, system performance, the implementation styles, and the relation between these models.
+
+Qing Han report
+This report focuses on YOLO system. This report analyzes the pros and cons of YOLO compared to other systems, especially in real-time object detection tasks. YOLO is much faster in real-time object detection than other systems.
